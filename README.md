@@ -11,7 +11,7 @@ This is a frontend and design challenge sponsored by Geepay, a global banking fo
 URL: [Template](https://www.figma.com/file/IvIZCBKMfmY3Qty0Gqx6S8/Analytics-Dashboard?type=design&node-id=1-3&mode=design&t=r7plr7yLTaYSf1VC-0)
 
 
-Screenshot: ![figma-design](https://github.com/Heba-WebDev/analytics-dashboard/assets/74996096/e054464d-a6b1-4915-a1be-b4b5e5adc063)
+![figma-design](https://github.com/Heba-WebDev/analytics-dashboard/assets/74996096/e054464d-a6b1-4915-a1be-b4b5e5adc063)
 
 ## Duration
 
