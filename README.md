@@ -3,13 +3,13 @@
 This is a frontend and design challenge sponsored by Geepay, a global banking for Africa's Professionals.
 
 ## Challenge
+![Challenge announcement on Geepay's blog](https://github.com/Heba-WebDev/analytics-dashboard/assets/74996096/2fff38e7-6c6e-4225-98b1-11567672c506)
 
-[Screenshot from Geepay's challenge announcment](public/Images/Readme/challenge.png)
 
 ## Figma Design
 
 [Template] (https://www.figma.com/file/IvIZCBKMfmY3Qty0Gqx6S8/Analytics-Dashboard?type=design&node-id=1-3&mode=design&t=r7plr7yLTaYSf1VC-0)
-[Screenshot of the figma design](puclic/Images/Readme/figma-design.png)
+![figma-design](https://github.com/Heba-WebDev/analytics-dashboard/assets/74996096/e054464d-a6b1-4915-a1be-b4b5e5adc063)
 
 ## Duration
 
