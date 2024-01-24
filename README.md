@@ -4,12 +4,12 @@ This is a frontend and design challenge sponsored by Geepay, a global banking fo
 
 ## Challenge
 
-[Screenshot from Geepay's challenge announcment](/Images/Readme/challenge.png)
+[Screenshot from Geepay's challenge announcment](public/Images/Readme/challenge.png)
 
 ## Figma Design
 
 [Template] (https://www.figma.com/file/IvIZCBKMfmY3Qty0Gqx6S8/Analytics-Dashboard?type=design&node-id=1-3&mode=design&t=r7plr7yLTaYSf1VC-0)
-[Screenshot of the figma design](/Images/Readme/figma-design.png)
+[Screenshot of the figma design](puclic/Images/Readme/figma-design.png)
 
 ## Duration
 
