@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Analytics Dashboard
 
-## Getting Started
+This is a frontend and design challenge sponsored by Geepay, a global banking for Africa's Professionals.
 
-First, run the development server:
+## Challenge
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Screenshot from Geepay's challenge announcment](/Images/Readme/challenge.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Figma Design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Template] (https://www.figma.com/file/IvIZCBKMfmY3Qty0Gqx6S8/Analytics-Dashboard?type=design&node-id=1-3&mode=design&t=r7plr7yLTaYSf1VC-0)
+[Screenshot of the figma design](/Images/Readme/figma-design.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Duration
 
-## Learn More
+The challenge will run for 4 days. The last day for submission is on the 27th of January 2024 by 6pm.
 
-To learn more about Next.js, take a look at the following resources:
+## Prizes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- There will be four winners.
+- Each winner will receive a prize of 250 USD.
+- Prizes will be credited to the winners' Geegpay USD wallets.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Submission Requirements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Entries should showcase the participant's design and front-end skills.
+- Designs can include website mockups, user interfaces, interactive elements, or any other relevant front-end work.
+- Each entry must be accompanied by a brief description or caption explaining the design concept and the technologies used.
+- Participants must tag both Davey Herbert and Geegpay in their posts to ensure visibility.
