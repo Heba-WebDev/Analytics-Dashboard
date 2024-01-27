@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { Bar } from "react-chartjs-2";
 import { ChartData, ChartDataset } from "chart.js";
+type ValuePiece = Date | null;
+type Value = ValuePiece | [ValuePiece, ValuePiece];
 type Dataset = ChartDataset<"bar", number[]> & {
   borderColor: string;
   backgroundColor: string;
@@ -27,6 +29,7 @@ ChartJS.register(
 );
 
 export default function Graphe() {
+  const [value, onChange] = useState<Value>(new Date());
   const [chartData, setChartData] = useState<Data>({
     datasets: [],
   });
@@ -64,7 +67,7 @@ export default function Graphe() {
           active: false,
           borderColor: "",
           backgroundColor: backgroundColors as any,
-          borderRadius: 10,
+          borderRadius: 15,
         },
       ],
     });
@@ -73,21 +76,26 @@ export default function Graphe() {
         y: {
           grid: {
             drawBorder: false,
+            drawTicks: false, // This line removes the ticks
           },
           ticks: {
-            // Define a callback to customize the ticks
             callback: function (
               value: number,
               index: number,
               values: string[]
             ) {
-              // Display only the values you want
               const tickValues = [
                 0, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000,
                 50000, 550000,
               ];
               return tickValues.includes(value) ? value : "";
             },
+          },
+        },
+        x: {
+          grid: {
+            drawOnChartArea: false,
+            drawBorder: false,
           },
         },
       },
@@ -101,18 +109,30 @@ export default function Graphe() {
           text: "Daily Revenue",
         },
       },
-      maintainAspectRatio: false,
+      maintainAspectRatio: true,
       responsive: true,
     });
   }, []);
 
   return (
     <>
-      <div className="w-full overflow-x-auto md:col-span-2 relative h-[385px]  m-auto p-4 border dark:border-slate-800 rounded-lg bg-white dark:bg-slate-800">
+      <div className="w-full flex flex-col justify-around overflow-y-auto md:col-span-2 relative h-[380px]  m-auto p-4 border dark:border-slate-800 rounded-lg bg-white dark:bg-slate-800">
+        <div className=" flex items-center justify-between">
+          <h3 className=" text-lg font-medium">Sales Trends</h3>
+          <form className=" flex items-center gap-1 -mb-1">
+            <p className=" text-sm font-medium">Sort By:</p>
+            <div className=" w-20 h-6 border p-1 px-2 flex items-center rounded-full justify-center">
+              <select className="text-xs flex items-center justify-center">
+                <option value="week">Weekly</option>
+                <option value="month">Monthly</option>
+              </select>
+            </div>
+          </form>
+        </div>
         <Bar
           data={chartData}
           options={chartOptions}
-          className=" dark:bg-slate-800"
+          className=" dark:bg-slate-800 overflow-x-auto"
         />
       </div>
     </>
