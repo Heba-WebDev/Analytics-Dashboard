@@ -121,8 +121,8 @@ export default function Graphe() {
           <h3 className=" text-lg font-medium">Sales Trends</h3>
           <form className=" flex items-center gap-1 -mb-1">
             <p className=" text-sm font-medium">Sort By:</p>
-            <div className=" w-20 h-6 border p-1 px-2 flex items-center rounded-full justify-center">
-              <select className="text-xs flex items-center justify-center">
+            <div className=" dark:bg-slate-800 w-20 h-6 border p-1 px-2 flex items-center rounded-full justify-center">
+              <select className="text-xs flex items-center justify-center dark:bg-slate-800">
                 <option value="week">Weekly</option>
                 <option value="month">Monthly</option>
               </select>
