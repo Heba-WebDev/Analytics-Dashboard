@@ -24,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${jakarta.className} bg-slate-50 dark:bg-slate-900 flex flex-col text-black dark:text-white`}
+        className={`${jakarta.className} bg-slate-50 dark:bg-slate-900 flex flex-col text-black dark:text-slate-300`}
       >
         <ThemesProvider>
           <div className="flex">
-            <div className="border dark:border-slate-800 border-y-0 border-l-0 py-7 flex flex-col justify-center items-center">
+            <div className="border dark:border-slate-800 border-y-0 border-l-0 py-6 lg:py-7 flex flex-col items-center">
               <SideNavBar />
             </div>
             <div className="w-full">
