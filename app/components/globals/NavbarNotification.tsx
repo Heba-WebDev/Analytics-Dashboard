@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import Notifications from "./Notifiatons";
+import Notifications from "./Notifications";
 
 export default function NavBarNotification() {
   const [showNotification, setShowNotification] = useState(false);
