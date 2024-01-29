@@ -57,7 +57,7 @@ const ProductTable = () => {
   ];
 
   return (
-    <div className="bg-white border  w-full p-4 dark:border-slate-800 dark:bg-slate-800 shadow-md sm:rounded-lg">
+    <div className="bg-white col-span-3 border  w-full p-4 dark:border-slate-800 dark:bg-slate-800 shadow-md rounded-2xl">
       <table className="w-full  overflow-auto leading-normal text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-[#9CA4AB] tracking-wider dark:bg-slate-800 dark:text-gray-400">
           <tr className=" text-base font-medium">
