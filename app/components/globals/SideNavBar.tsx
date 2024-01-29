@@ -2,7 +2,7 @@ import ThemeSwitch from "@/app/utils/ThemeSwitch";
 import Image from "next/image";
 export default function SideNavBar() {
   return (
-    <div className="h-screen w-20 flex flex-col">
+    <div className="h-screen w-14 lg:w-20 flex flex-col">
       <div className=" flex flex-col gap-5 h-full relative">
         {/* <div className=" w-[4px] h-5 rounded-full bg-black absolute -right-[1px] top-[7%]"></div> */}
         <Image
