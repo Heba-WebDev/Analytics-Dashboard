@@ -1,5 +1,6 @@
 import Graphe from "./components/home/Graphes";
 import LastOrders from "./components/home/LastOrders";
+import TopPlatforms from "./components/home/TopPlatforms";
 import Widgets from "./components/home/Widgets";
 
 export default function Home() {
@@ -9,8 +10,9 @@ export default function Home() {
         <Graphe />
         <Widgets />
       </section>
-      <section className="">
+      <section className="flex flex-col-reverse lg:grid lg:grid-cols-5 items-center justify-between gap-5">
         <LastOrders />
+        <TopPlatforms />
       </section>
     </main>
   );
