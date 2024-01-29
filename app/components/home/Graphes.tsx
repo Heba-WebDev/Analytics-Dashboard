@@ -68,6 +68,7 @@ export default function Graphe() {
           borderColor: "",
           backgroundColor: backgroundColors as any,
           borderRadius: 15,
+          borderSkipped: true,
         },
       ],
     });
@@ -76,7 +77,7 @@ export default function Graphe() {
         y: {
           grid: {
             drawBorder: false,
-            drawTicks: false, // This line removes the ticks
+            drawTicks: true, // This line removes the ticks
           },
           ticks: {
             callback: function (
@@ -96,6 +97,7 @@ export default function Graphe() {
           grid: {
             drawOnChartArea: false,
             drawBorder: false,
+            drawTicks: true,
           },
         },
       },
@@ -116,7 +118,7 @@ export default function Graphe() {
 
   return (
     <>
-      <div className="w-full flex flex-col justify-around overflow-y-auto md:col-span-2 relative h-[380px]  m-auto p-4 border dark:border-slate-800 rounded-lg bg-white dark:bg-slate-800">
+      <div className="w-full flex flex-col justify-around overflow-y-auto md:col-span-3 relative h-[380px]  m-auto p-4 border dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-800">
         <div className=" flex items-center justify-between">
           <h3 className=" text-lg font-medium">Sales Trends</h3>
           <form className=" flex items-center gap-1 -mb-1">

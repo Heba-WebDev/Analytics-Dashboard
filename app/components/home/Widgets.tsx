@@ -33,7 +33,7 @@ const widgetsInfo = [
 
 export default function Widgets() {
   return (
-    <section className="grid md:grid-cols-2 gap-6 w-full col-span-3">
+    <section className="grid lg:col-span-2 lg:grid-cols-2 gap-6 w-full">
       {widgetsInfo.map((widget) => {
         return (
           <>
